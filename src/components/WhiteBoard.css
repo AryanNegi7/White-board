@@ -1,0 +1,54 @@
+  .nav{
+    height: 3rem;
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1400px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .nav-left{
+    display: flex;
+    width: 40%;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .nav-right{
+    width: 15%;
+    margin-right: 6rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .pencil-icon{
+    height: 2rem;
+    width: 2rem;
+    border-radius: 20px;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    box-shadow: 0 2px 4px darkslategray;
+    cursor: pointer;
+    transition: all 0.2s ease;
+  }
+  .icon:active {
+    box-shadow: 0 0 2px darkslategray;
+    transform: translateY(2px);
+  }
+  input[type=range].slider {
+    -webkit-appearance: none;
+    width: 4.5rem;
+    height: 2px;
+    background: grey;
+  }
+  input[type=range].slider:focus {
+    outline: none;
+  }
+  input[type=range].slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    background: black;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+  }
